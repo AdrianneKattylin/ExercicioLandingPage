@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Rubik:wght@400;500&display=swap');
+
+*{box-sizing: border-box;}
+
+body{
+    height: 100%;
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100vw;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #fcfcfc;
+    margin-top: 10px;
+}
+
+.menu .logo a{
+    font-family: 'Nova Square', sans-serif;;
+    font-size: 2em; 
+    text-decoration: underline;
+    color: #4c4c99;
+    margin-left: 20px;
+}
+
+.menu .social-media{
+    margin-right: 50px;
+}
+
+.menu .social-media a img{
+    width: 25px;
+    margin: 10px;
+}
+
+.banner{
+    background-image: url(/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    color: #fcfcfc;
+}
+
+.banner header{
+    margin: 10px;
+}
+
+.banner .description{
+    margin: 10px;
+    width: 80%;
+}
+
+.banner a{
+    background: #4c4c99;
+    border: 2px solid #4c4c99;
+    padding: 8px 16px;
+    color: #fcfcfc;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.6em;
+}
+
+.speakers-section{
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+}
+
+.speakers-section .text{
+    width: 60%;
+    color: #323232;
+    margin-top: 20px;
+}
+
+.speakers-section .speakers{
+    display: flex;
+    margin: 15px;
+}
+
+.speakers-section .speakers section{
+    width: 300px;
+    margin: 10px;
+}
+
+.speakers-section .speakers figure img{
+    width: 210px;
+    border-radius: 5px;
+}
+
+.speakers-section .speakers section header h3{
+    color: #323232;
+}
+
+.speakers-section .speakers section p{
+    color: #8a8a8a;
+}
+
+.speakers-section .speakers section a{
+    text-decoration: none;
+    color:#4c4c99;
+}
+
+.clients{
+    display: flex;
+    width: 100vw;
+    height: 500px;
+    background-color: #e8e8e8;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients .text{
+    color: #202020;
+    font-size: 1.3em;
+    font-family: 'Rubik', sans-serif;
+}
+
+.clients .companies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.clients .companies section figure img{
+    width: 180px;
+}
+
+.comment{
+    width: 100vw;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    align-items: center;
+    justify-content: center;
+    color:#323232;
+}
+
+.comment .text{
+    margin: 10px;
+}
+
+.comment .form{
+    margin: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment .form form .row{
+    padding: 10px;
+}
+
+.comment .form form .row input{
+    padding: 5px;
+    margin: 3px;
+    border: 1px solid #8a8a8a;
+    margin-right: 30px;
+    width: 200px;
+}
+
+.comment .form form button{
+    color: #e8e8e8;
+    background-color: #4c4c99;
+    padding: 10px;
+    border: 2px solid #4c4c99;
+    margin: auto;
+    cursor: pointer;
+    width: 100%;
+}
+
+footer{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    background-color: #bcbbbb;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .social-media{
+    margin-left: 40px;
+}
+
+footer .social-media a img{
+    width: 30px;
+}
+
+footer .text{
+    margin-right: 40px;
+}
